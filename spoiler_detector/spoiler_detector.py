@@ -191,7 +191,6 @@ try:
                 # 非ネタバレなら表示
                 print(text)
             else:
-                print("ooooooooooooooooooooooo")
                 # 投稿時間を計算
                 chat_published_datetime = datetime.fromisoformat(
                     published_at
